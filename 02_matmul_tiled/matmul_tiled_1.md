@@ -196,7 +196,7 @@ MN = \sum_{i=1}^k \mathbf{m}_i \mathbf{n}_i^T
 = \mathbf{m}_1 \mathbf{n}_1^T + \mathbf{m}_2 \mathbf{n}_2^T + \cdots + \mathbf{m}_k \mathbf{n}_k^T
 $$
 
-每个项 $\mathbf{m}_i$ 为一列，$\mathbf{n}_i$ 为一行，长度均为 8。且 $K = 32$。 这是一个局部 `8 x 32` * `32 x 8` 的两个矩阵相乘的外积表示形式。 更多详情参考 [矩阵乘法的外积形式](./matrix_outer_dot_product.md)。
+每个项 $\mathbf{m}_i$ 为一列， $\mathbf{n}_i$ 为一行，长度均为 8。且 $K = 32$。 这是一个局部 `8 x 32` * `32 x 8` 的两个矩阵相乘的外积表示形式。 更多详情参考 [矩阵乘法的外积形式](./matrix_outer_dot_product.md)。
 
 
 代码实现:
