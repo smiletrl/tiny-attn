@@ -457,7 +457,7 @@ $$
 就相当于用 float2（我们实际用的是 float4），一次性读了
 
 $$
-\begin{bmatrix} 1 & 2 \end{bmatrix} \begin{bmatrix} 5 \\ 7 \end{bmatrix}
+\begin{bmatrix} 1 & 2 \end{bmatrix} \begin{bmatrix} 5 \\\\ 7 \end{bmatrix}
 $$
 
 我们沿着矩阵相乘的数学形式与代码实现一步步推导核对：
