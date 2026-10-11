@@ -480,12 +480,11 @@ $$\begin{bmatrix} X[i][k] & X[i][k+1] \end{bmatrix} = \begin{bmatrix} 1 & 2 \end
 
 * 理想数学权重 $W_{math}$ 取出的是**一列**中的连续 2 个元素（列向量）：
 
-$$\begin{bmatrix} W_{math}[k][j] \\ W_{math}[k+1][j] \end{bmatrix} = \begin{bmatrix} 5 \\ 7 \end{bmatrix}$$
-
+$$\begin{bmatrix} W_{math}[k][j] \\\\ W_{math}[k+1][j] \end{bmatrix} = \begin{bmatrix} 5 \\\\ 7 \end{bmatrix}$$
 
 * 两者相乘的结果为一个标量（即点积）：
 
-$$\begin{bmatrix} 1 & 2 \end{bmatrix} \begin{bmatrix} 5 \\ 7 \end{bmatrix} = 1 \times 5 + 2 \times 7 = 19$$
+$$\begin{bmatrix} 1 & 2 \end{bmatrix} \begin{bmatrix} 5 \\\\ 7 \end{bmatrix} = 1 \times 5 + 2 \times 7 = 19$$
 
 ### 3. 与代码的实际执行逻辑对齐
 
